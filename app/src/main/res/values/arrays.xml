@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="UpdateMechanismTitles">
+        <item>New Applications</item>
+        <item>New Free Applications</item>
+        <item>New Paid Applications</item>
+        <item>Top Free Applications</item>
+        <item>Top Free iPad Applications</item>
+        <item>Top Grossing Applications</item>
+        <item>Top Grossing iPad Applications</item>
+        <item>Top Paid Applications</item>
+        <item>Top Paid iPad Applications</item>
+    </string-array>
+
+    <string-array name="UpdateMechanismValues">
+        <item>@string/UpdateMechanism_NewApplications</item>
+        <item>@string/UpdateMechanism_NewFreeApplications</item>
+        <item>@string/UpdateMechanism_NewPaidApplications</item>
+        <item>@string/UpdateMechanism_TopFreeApplications</item>
+        <item>@string/UpdateMechanism_TopFreeiPadApplications</item>
+        <item>@string/UpdateMechanism_TopGrossingApplications</item>
+        <item>@string/UpdateMechanism_TopGrossingiPadApplications</item>
+        <item>@string/UpdateMechanism_TopPaidApplications</item>
+        <item>@string/UpdateMechanism_TopPaidiPadApplications</item>
+    </string-array>
+
+
+    <string name="UpdateMechanism_NewApplications">UpdateMechanism_NewApplications</string>
+    <string name="UpdateMechanism_NewFreeApplications">UpdateMechanism_NewFreeApplications</string>
+    <string name="UpdateMechanism_NewPaidApplications">UpdateMechanism_NewPaidApplications</string>
+    <string name="UpdateMechanism_TopFreeApplications">UpdateMechanism_TopFreeApplications</string>
+    <string name="UpdateMechanism_TopFreeiPadApplications">UpdateMechanism_TopFreeiPadApplications</string>
+    <string name="UpdateMechanism_TopGrossingApplications">UpdateMechanism_TopGrossingApplications</string>
+    <string name="UpdateMechanism_TopGrossingiPadApplications">UpdateMechanism_TopGrossingiPadApplications</string>
+    <string name="UpdateMechanism_TopPaidApplications">UpdateMechanism_TopPaidApplications</string>
+    <string name="UpdateMechanism_TopPaidiPadApplications">UpdateMechanism_TopPaidiPadApplications</string>
+
+
+</resources>

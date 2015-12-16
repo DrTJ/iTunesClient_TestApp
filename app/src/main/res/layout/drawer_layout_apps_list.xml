@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/leftPanel"
+    android:layout_width="@dimen/drawer_width"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="@color/drawer_list_background_color"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/leftPanelListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@drawable/drawer_item_divider"/>
+</LinearLayout>

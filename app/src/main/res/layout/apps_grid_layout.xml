@@ -1,0 +1,41 @@
+<LinearLayout
+    android:id="@+id/LinearLayout1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/grid_item_layout_width"
+    android:layout_height="wrap_content"
+    android:background="@drawable/box_style"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/grid_item_layout_padding_bottom"
+    android:paddingLeft="@dimen/grid_item_layout_padding_left"
+    android:paddingRight="@dimen/grid_item_layout_padding_right"
+    android:paddingTop="@dimen/grid_item_layout_padding_top">
+
+    <ImageView
+        android:id="@+id/iconImageView"
+        android:layout_width="@dimen/grid_item_image_width"
+        android:layout_height="@dimen/grid_item_image_height"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/grid_item_image_margin_bottom"
+        android:background="@drawable/frame_style"
+        android:contentDescription="@string/category_icon"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/titleTextView"
+        style="@style/thumbnail_item_text_size"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/grid_item_title_margin_bottom"
+        android:gravity="center|top"
+        android:lines="2"
+        android:text="Some app title" />
+
+    <TextView
+        android:id="@+id/subTitleTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="right"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<style name="AppTheme" parent="AppBaseTheme">-->
+        <!--<item name="thumbnail_item_text_size">?android:attr/textAppearanceLarge</item>-->
+    <!--</style>-->
+
+
+    <style name="thumbnail_item_text_size">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+
+</resources>

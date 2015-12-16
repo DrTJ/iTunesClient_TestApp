@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:enabled="true"
+                  android:selectable="false"
+                  android:title="General">
+
+    <PreferenceCategory android:title="@string/net_settings_title">
+        <SwitchPreference
+            android:enabled="true"
+            android:key="AutoDownloadList"
+            android:switchTextOff="@string/no"
+            android:switchTextOn="@string/yes"
+            android:summary="@string/auto_update_description"
+            android:title="@string/auto_update"/>
+        <SwitchPreference
+            android:enabled="true"
+            android:switchTextOff="@string/no"
+            android:switchTextOn="@string/yes"
+            android:key="DownloadOnlyOnWIFI"
+            android:summary="@string/download_only_on_wifi_description"
+            android:title="@string/download_only_on_wifi_tite"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/update_mechanism_settings">
+
+        <EditTextPreference
+            android:defaultValue="https://itunes.apple.com/us/rss/topfreeapplications/limit=50/json"
+            android:key="serviceBaseURL"
+            android:summary="@string/service_BaseURL_Description"
+            android:title="@string/service_BaseURL_Title"/>
+
+        <ListPreference
+            android:enabled="false"
+            android:defaultValue="@string/UpdateMechanism_TopFreeiPadApplications"
+            android:entries="@array/UpdateMechanismTitles"
+            android:entryValues="@array/UpdateMechanismValues"
+            android:key="updateMechanism"
+            android:summary="@string/update_mechanism_summary"
+            android:title="@string/update_mechanism_title"/>
+
+        <EditTextPreference
+            android:enabled="false"
+            android:defaultValue="200"
+            android:key="updateAppsCount"
+            android:summary="@string/update_apps_count_summary"
+            android:title="@string/update_apps_count_title"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

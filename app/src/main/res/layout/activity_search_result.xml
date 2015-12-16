@@ -1,0 +1,34 @@
+<LinearLayout
+    android:id="@+id/LinearLayout1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AppsListActivity">
+
+    <include
+        android:id="@+id/pageToolbar"
+        layout="@layout/toolbar"/>
+
+    <TextView
+        android:id="@+id/recordsCountTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Medium"/>
+
+    <ListView
+        android:id="@+id/appsListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="3dp"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="20dp"
+        android:verticalSpacing="10dp">
+    </ListView>
+
+</LinearLayout>

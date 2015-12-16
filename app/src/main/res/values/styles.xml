@@ -1,0 +1,32 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="colorPrimary">#9c27b0</item>
+        <item name="colorPrimaryDark">#7b1fa2</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+
+        <!--<item name="thumbnail_item_text_size">?android:attr/textAppearanceMedium</item>-->
+
+
+    </style>
+
+    <style name="PopupWindow">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+
+    <style name="thumbnail_item_text_size">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+</resources>

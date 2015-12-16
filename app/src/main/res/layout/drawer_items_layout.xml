@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/drawer_item_layout_padding_bottom"
+    android:paddingLeft="@dimen/drawer_item_layout_padding_left"
+    android:paddingRight="@dimen/drawer_item_layout_padding_right"
+    android:paddingTop="@dimen/drawer_item_layout_padding_top">
+
+    <ImageView
+        android:id="@+id/iconImageView"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iconImageView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/iconImageView"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="5dp"
+        android:paddingStart="5dp"
+        android:text="Some Title"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000"/>
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@mipmap/settings2_white_512"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/updateList"
+        android:icon="@mipmap/download_white_512"
+        android:title="@string/updateListTitle"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/Languages"
+        android:icon="@mipmap/translate2_white_512"
+        android:title="@string/Change_language"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/EnglishLanguage"
+                android:title="@string/language_English">
+            </item>
+            <item
+                android:id="@+id/SpanishLanguage"
+                android:title="@string/language_Spanish">
+            </item>
+            <item
+                android:id="@+id/PersianLanguage"
+                android:title="@string/language_Persian">
+            </item>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@mipmap/magnifier"
+        android:title="@string/action_search"
+        android:orderInCategory="100"
+        app:showAsAction="always">
+    </item>
+
+</menu>
